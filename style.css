@@ -60,7 +60,7 @@ align-items: center;
 /*==========
 	section one
 ===========*/
-.section-1{
+.section-1, .section-2{
 	margin-top: 48px;
 }
 .header-down{
@@ -114,4 +114,67 @@ align-items: center;
 .header-down-right-des img {
 height: 100%;
 width: 100%;
+}
+
+/*=========
+	section-2
+===========*/
+.section-2{
+
+}
+.card-border{
+border: 1px solid black;
+}
+.card-title{
+    text-align: center;
+    padding-top: 19px;
+    margin-bottom: 17px;
+}
+.cards{
+
+}
+.card{
+
+}
+.card .card-img{
+    width: 277px;
+    padding: 11px 8px;
+    background: #fff9f9;
+    box-shadow: 1px -3px 5px #c4baba;
+}
+.card-img img{
+    width: 252px;
+    height: 259px;
+}
+.card .card-des{
+
+}
+.card-des h4{
+color: #18191F;
+font-family: Poppins;
+font-weight: 500;
+font-size: 28px;
+}
+.card-des p {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+}
+.card-des .icons{
+    display: flex;
+    width: 158px;
+}
+.fa-star{
+	color: goldenrod;
+}
+.empty{
+	color: #000000;
+}
+.icon-des{
+    width: 159px
+    height: 56px;
+}
+.icon-des small{
+font-size: 14px;
 }
