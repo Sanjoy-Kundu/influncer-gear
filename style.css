@@ -202,3 +202,19 @@ font-size: 28px;
 .icon-des small{
 font-size: 14px;
 }
+
+.right-button{
+	display: flex;
+    width: 139px;
+	margin-left: 84%;
+}
+.right-button a{
+    text-decoration: none;
+    color: rgb(165, 46, 46);
+    padding: 9px 16px;
+    font-size: 20px;
+}
+.right-button .fa-arrow-right{
+margin-top: 15px;
+color: rgb(165, 46, 46);
+}
