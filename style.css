@@ -141,6 +141,23 @@ border: 1px solid black;
 .card{
 	width: 260px;
 }
+.card:hover img{
+	transform:rotate(360deg) scale(1.2);
+	transition: transform 1s;
+}
+.card-img:hover .card-des {
+	transform:scale(1.5);
+	transition: transform 1s;
+	margin-left: 10px;
+}
+.card-img:hover .card-des p{
+	color: #da4179;
+	font-weight: 900;
+	font-size: 30px;
+}
+.card-img:hover .card-des h4{
+	color: #c7567f;
+}
 .card .card-img{
 	width: 260px;
     padding: 11px 8px;
