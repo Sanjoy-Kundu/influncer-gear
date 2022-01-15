@@ -131,13 +131,18 @@ border: 1px solid black;
     margin-bottom: 17px;
 }
 .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    grid-row-gap: 25px;
+    margin-left: 23px;
 
 }
 .card{
-
+	width: 260px;
 }
 .card .card-img{
-    width: 277px;
+	width: 260px;
     padding: 11px 8px;
     background: #fff9f9;
     box-shadow: 1px -3px 5px #c4baba;
@@ -162,8 +167,10 @@ font-size: 28px;
 	font-size: 24px;
 }
 .card-des .icons{
-    display: flex;
+	isplay: flex;
     width: 158px;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 .fa-star{
 	color: goldenrod;
