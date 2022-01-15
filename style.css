@@ -218,3 +218,41 @@ font-size: 14px;
 margin-top: 15px;
 color: rgb(165, 46, 46);
 }
+
+/*=======
+	unknown section
+	========*/
+	.section-3{
+		margin-top: 91px;
+	}
+.influence-marketing{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.influence-marketing img{
+	height: 333px;
+    width: 415px;
+}
+.influence-marketing .right-side{
+padding-top: 18px;
+}
+.right-side .right-title{
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 21px;
+	color: #da4179;
+}
+.right-side h3{
+    margin-top: 26px;
+    font-size: 45px;
+    color: #3B373A;
+}
+.right-side p {
+    color: #8F7A7A;
+    font-size: 21px;
+    margin-top: 22px;
+    text-align: justify;
+}
+
