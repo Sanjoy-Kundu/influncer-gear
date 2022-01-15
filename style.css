@@ -29,7 +29,7 @@ width: 80%;
 
 }
 .header-left h4{
-font-size: 24px;
+font-size: 34px;
 font-weight: normal;
 font-family: 'Poppins', sans-serif;
 font-style: normal;
@@ -50,6 +50,7 @@ align-items: center;
 	text-decoration: none;
 	color: black;
 	font-weight: 100;
+	font-size: 21px;
 }
 
 .fas{
@@ -87,21 +88,21 @@ align-items: center;
     border: 1px solid black;
     width: 168px;
     margin-top: 13px;
-    height: 40px;
+	height: 54px;
     border-radius: 43px;
     background-color: #E02C6D;
 }
 .button-design a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     color: #ffffff;
     font-family: 'Poppins';
-    padding: 6px 13px;
+    padding: 14px 13px;
 
 }
 .fa-arrow-right{
-    margin-top: 11px;
+	margin-top: 19px;
     font-size: 17px;
     color: #fff;
 }
@@ -123,7 +124,7 @@ width: 100%;
 
 }
 .card-border{
-border: 1px solid black;
+border: none;
 }
 .card-title{
     text-align: center;
@@ -256,3 +257,51 @@ padding-top: 18px;
     text-align: justify;
 }
 
+/*========
+footer
+========*/
+.footer{
+background-color: #0A0826;
+color: #ffff;
+height: 107px;
+}
+.footer .footer-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 305px;
+    height: 47px;
+    text-align: center;
+    margin: 1px auto;
+    padding-top: 18px;
+}
+.footer-head h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.footer-head p {
+
+}
+.footer-head .small{
+
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    width: 281px;
+    margin: 26px auto;
+    height: 30px;
+}
+.footer-icon li{
+    list-style: none;
+    margin-left: 12px;
+    font-size: 20px;
+    margin-top: 3px;
+}
+.footer-icon li:hover{
+	color:#ED6580;
+	transform: scale(2);
+	transition: transform .5s;
+}
